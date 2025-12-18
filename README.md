@@ -33,13 +33,7 @@ Confidence
 
 This guarantees deterministic, machine-readable scoring during evaluation.
 
----
-## ✅ Golden Evaluation Test (LiteLLM)
-
-This is the exact command used by automated evaluators.
-
-```
-bash
+----
 curl -X POST http://3.110.18.218/chat/completions \
   -H "Content-Type: application/json" \
   -H "x-litellm-api-key: <YOUR_API_KEY>" \
@@ -57,6 +51,7 @@ curl -X POST http://3.110.18.218/chat/completions \
     ]
   }'
 ---
+
 ## 🏗️ System Architecture
 
 ```

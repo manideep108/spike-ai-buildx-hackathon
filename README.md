@@ -34,6 +34,9 @@ Confidence
 This guarantees deterministic, machine-readable scoring during evaluation.
 
 ----
+🧪 Golden Evaluation Test
+Bash
+
 curl -X POST http://3.110.18.218/chat/completions \
   -H "Content-Type: application/json" \
   -H "x-litellm-api-key: <YOUR_API_KEY>" \
@@ -50,6 +53,19 @@ curl -X POST http://3.110.18.218/chat/completions \
       }
     ]
   }'
+📋 Configuration
+Endpoint: http://3.110.18.218/chat/completions
+
+Model: gemini-2.5-flash
+
+Goal: Verifies deterministic, machine-readable scoring during evaluation.
+
+✅ Expected Output Format
+Plaintext
+
+TL;DR:
+Key Insights:
+Confidence:
 ---
 
 ## 🏗️ System Architecture

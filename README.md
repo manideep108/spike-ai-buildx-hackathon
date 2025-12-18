@@ -17,6 +17,22 @@ This project implements a **Tier 3 Multi-Agent System** that intelligently route
 All through a single, clean API endpoint.
 
 ---
+## 🔍 Evaluation Mode (Hackathon Scoring)
+
+This project is optimized for **automated LLM-based evaluation**.
+
+Primary evaluation happens via the LiteLLM OpenAI-compatible endpoint:
+
+POST http://3.110.18.218/chat/completions
+
+All responses are strictly formatted as:
+
+TL;DR  
+Key Insights  
+Confidence  
+
+This guarantees deterministic, machine-readable scoring during evaluation.
+
 
 ## 🏗️ System Architecture
 
